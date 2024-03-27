@@ -1,0 +1,75 @@
+# coding: utf-8
+
+# flake8: noqa
+
+# import all models into this package
+# if you have many models here with many references from one model to another this may
+# raise a RecursionError
+# to avoid this, import only the models that you directly need like:
+# from from oyster_python_sdk.model.pet import Pet
+# or import this package, but before doing it, use:
+# import sys
+# sys.setrecursionlimit(n)
+
+from oyster_python_sdk.model.address import Address
+from oyster_python_sdk.model.amount import Amount
+from oyster_python_sdk.model.async_response import AsyncResponse
+from oyster_python_sdk.model.async_response_meta import AsyncResponseMeta
+from oyster_python_sdk.model.authentication_create_access_token_request import AuthenticationCreateAccessTokenRequest
+from oyster_python_sdk.model.company import Company
+from oyster_python_sdk.model.company_addresses import CompanyAddresses
+from oyster_python_sdk.model.company_details_retrieve_response import CompanyDetailsRetrieveResponse
+from oyster_python_sdk.model.department import Department
+from oyster_python_sdk.model.departments import Departments
+from oyster_python_sdk.model.departments_get_all_response import DepartmentsGetAllResponse
+from oyster_python_sdk.model.engagement import Engagement
+from oyster_python_sdk.model.engagement_benefit_enrollments import EngagementBenefitEnrollments
+from oyster_python_sdk.model.engagement_benefit_enrollments_item import EngagementBenefitEnrollmentsItem
+from oyster_python_sdk.model.engagement_benefit_enrollments_item_plan import EngagementBenefitEnrollmentsItemPlan
+from oyster_python_sdk.model.engagement_department import EngagementDepartment
+from oyster_python_sdk.model.engagement_personal_details import EngagementPersonalDetails
+from oyster_python_sdk.model.engagement_personal_details_addresses import EngagementPersonalDetailsAddresses
+from oyster_python_sdk.model.engagement_personal_details_citizenships import EngagementPersonalDetailsCitizenships
+from oyster_python_sdk.model.engagement_personal_details_phone_numbers import EngagementPersonalDetailsPhoneNumbers
+from oyster_python_sdk.model.engagement_terminations import EngagementTerminations
+from oyster_python_sdk.model.engagement_terminations_item import EngagementTerminationsItem
+from oyster_python_sdk.model.engagements import Engagements
+from oyster_python_sdk.model.engagements_get_all_response import EngagementsGetAllResponse
+from oyster_python_sdk.model.engagements_get_by_id_response import EngagementsGetByIdResponse
+from oyster_python_sdk.model.error import Error
+from oyster_python_sdk.model.error_error import ErrorError
+from oyster_python_sdk.model.errors import Errors
+from oyster_python_sdk.model.errors_errors import ErrorsErrors
+from oyster_python_sdk.model.errors_errors_item import ErrorsErrorsItem
+from oyster_python_sdk.model.expense import Expense
+from oyster_python_sdk.model.expense_engagement import ExpenseEngagement
+from oyster_python_sdk.model.expenses import Expenses
+from oyster_python_sdk.model.expenses_create_operation_key_request import ExpensesCreateOperationKeyRequest
+from oyster_python_sdk.model.expenses_create_operation_key_request_receipt_amount import ExpensesCreateOperationKeyRequestReceiptAmount
+from oyster_python_sdk.model.expenses_decline_expense_request import ExpensesDeclineExpenseRequest
+from oyster_python_sdk.model.expenses_get_by_id_response import ExpensesGetByIdResponse
+from oyster_python_sdk.model.field_errors import FieldErrors
+from oyster_python_sdk.model.field_errors_errors import FieldErrorsErrors
+from oyster_python_sdk.model.field_errors_errors_item import FieldErrorsErrorsItem
+from oyster_python_sdk.model.meta import Meta
+from oyster_python_sdk.model.operation import Operation
+from oyster_python_sdk.model.operation_meta import OperationMeta
+from oyster_python_sdk.model.operation_request import OperationRequest
+from oyster_python_sdk.model.operations_get_by_operation_key_response import OperationsGetByOperationKeyResponse
+from oyster_python_sdk.model.payroll import Payroll
+from oyster_python_sdk.model.payroll_get_all_payrolls_response import PayrollGetAllPayrollsResponse
+from oyster_python_sdk.model.payroll_get_by_id_response import PayrollGetByIdResponse
+from oyster_python_sdk.model.payroll_record import PayrollRecord
+from oyster_python_sdk.model.payroll_record_engagement import PayrollRecordEngagement
+from oyster_python_sdk.model.payrolls import Payrolls
+from oyster_python_sdk.model.phone_number import PhoneNumber
+from oyster_python_sdk.model.time_off_engagement_details import TimeOffEngagementDetails
+from oyster_python_sdk.model.time_off_entitlements import TimeOffEntitlements
+from oyster_python_sdk.model.time_off_entitlements_item import TimeOffEntitlementsItem
+from oyster_python_sdk.model.time_off_get_all_requests_response import TimeOffGetAllRequestsResponse
+from oyster_python_sdk.model.time_off_get_entitlements_response import TimeOffGetEntitlementsResponse
+from oyster_python_sdk.model.time_off_get_request_response import TimeOffGetRequestResponse
+from oyster_python_sdk.model.time_off_reject_request_request import TimeOffRejectRequestRequest
+from oyster_python_sdk.model.time_off_request import TimeOffRequest
+from oyster_python_sdk.model.time_off_requests import TimeOffRequests
+from oyster_python_sdk.model.token import Token
